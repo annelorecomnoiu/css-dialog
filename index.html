@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="dialog">
+        <nav>
+            <i class="fa fa-user-plus user"></i>
+            <span>New User</span>
+            <button><i class="fa fa-times"></i></button>
+        </nav>
+
+        <main>
+            <form action="/action_page.php">
+                <label for="myfile">Upload an image</label>
+                <input type="file" id="myfile">
+            </form>
+            <p>* Maximum upload 1mb</p>
+        </main>
+        
+        <footer>
+            <button class="clearButton">Clear</button>
+            <div class="rightButtons">
+                <button class="cancelButton">Cancel</button>
+                <button class="confirmButton">Confirm</button>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
